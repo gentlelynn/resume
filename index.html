@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>myResume</title>
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Fira+Sans:400,400italic' rel='stylesheet' type='text/css'>
+	<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://cdn.bootcss.com/fullPage.js/2.9.6/jquery.fullpage.css" rel="stylesheet">
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/items.css">
+	<!-- <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script> -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.SuperSlide.2.1.2.js"></script>
+	<script src="https://cdn.bootcss.com/modernizr/2010.07.06dev/modernizr.min.js"></script>
+	<script src="js/timeline.js"></script>
+	<script src="https://cdn.bootcss.com/jquery-easing/1.4.1/jquery.easing.js"></script>
+	<script src="https://cdn.bootcss.com/fullPage.js/2.9.6/jquery.fullpage.js"></script>
+	<script src="js/pace.min.js"></script>	
+	<script src="js/jquery.qrcode.min.js"></script>
+	<script src="js/scroll.js"></script>	
+</head>
+<body>
+	<div id="fullpage">
+		<div id="first" class="section">
+			<p>Web前端开发工程师</p>
+			<div class="user-img">
+				<img src="img/crown.png" alt="王冠" class="crown">
+				<img src="img/user.jpg" alt="我的头像" class="my-pic">
+			</div>
+			<ul class="fa-ul user-info">
+				<li><i class="fa-li fa fa-user-o fa-lg"></i>刘亚男</li>
+				<li><i class="fa-li fa fa-phone fa-lg"></i>18811485399</li>
+				<li><i class="fa-li fa fa-envelope-o fa-lg"></i>18811485399@163.com</li>
+				<li><i class="fa-li fa fa-flag-o fa-lg"></i>https://gentlelynn.github.io</li>
+			</ul>
+		</div>	
+		<div id="two" class="section">
+			<p class="info"><img src="img/info.png" alt="基本信息" style="width: 1000px;"></p>
+			<ul class="job-info fa-ul">
+				<li><i class="fa-li fa fa-clock-o fa-lg"></i>全职</li>
+				<li><i class="fa-li fa fa-map-marker fa-lg"></i>北京</li>
+				<li><i class="fa-li fa fa-rmb fa-lg"></i>期望薪资8-15k</li>
+				<li><i class="fa-li fa fa-calendar fa-lg"></i>立即到岗</li>
+			</ul>
+			<div class="school">
+				<p>
+					<i class="fa-li fa fa-mortar-board fa-lg"></i>
+					<span>2013.09-2017.06</span>
+					<span>西南大学(211工程) 网络工程/本科</span>
+				</p>
+				<ul class="fa-ul eduinfo">
+					<li>
+						<i class="fa-li fa fa-book fa-lg"></i>主修课程:数据结构、网络安全、数据库、操作系统、网络协议分析(可看懂部分<br>网络协议)、Linux等，可解决简单的计算机软件和硬件问题，会装系统能P图
+					</li>
+				</ul>
+			</div>
+			<div class="class">
+				<p>
+					<i class="fa-li fa fa-smile-o fa-lg"></i>
+					<span>2013.09-2017.06</span>
+					<span>计算机类2班</span>
+					<span>团支书/西南大学优秀团干部</span>
+				</p>
+				<ul class="fa-ul eduinfo">
+					<li>
+						<i class="fa-li fa fa-check-square-o fa-lg"></i>按照学院要求协调班委，组织同学举办团日活动，深入贯彻党的思想和章程;
+					</li>
+					<li>
+						<i class="fa-li fa fa-check-square-o fa-lg"></i>组织学术科技活动，聚餐，爬山，联谊等班级活动，协调同学关系，保障班级稳定与发展;
+					</li>
+					<li>
+						<i class="fa-li fa fa-check-square-o fa-lg"></i>协助辅导员高效顺利的完成日常工作，与其他班级班长团支书沟通，更好的管理班级。
+					</li>
+				</ul>
+			</div>
+			<div class="luntan">
+				<p>
+					<i class="fa-li fa fa-sun-o fa-lg"></i>
+					<span>2013.09-2014.06</span>
+					<span>西南大学樟树林论坛</span>办公室干事
+				</p>
+				<ul class="fa-ul eduinfo">
+					<li>
+						<i class="fa-li fa fa-check-square-o fa-lg"></i>
+						办公室物资的采购，论坛各部门之间信息的推送;
+					</li>
+					<li>
+						<i class="fa-li fa fa-check-square-o fa-lg"></i>
+						网络推广渠道搭建维护，包括QQ空间、微博、微信等; 
+					</li>
+					<li>
+						<i class="fa-li fa fa-check-square-o fa-lg"></i>
+						协助论坛活动的顺利举办，校级校园歌手大赛，线上线下活动的开展，并顺利完成<br>论坛10周年晚会活动的举办，获得优秀干事称号
+					</li>
+				</ul>
+			</div>			
+		</div>
+		<!-- <div id="three" class="section" style="background-color: #33125e">
+			<img src="img/work.png" alt="年份">
+			<div class="wonder bigger">
+				<span>万达信息股份有限公司</span><span>软件开发工程师</span>
+				<ul><span>工作内容:</span>
+					<li>1.与同事一起完成持卡库后台22个服务的编写工作，独立完成所有服务的测试工作以及bug 的修复和功能的完善</li>
+					<li>2.学习java web 的相关知识，并实现后台服务的java版本</li>
+					<li>3.学习运维相关工作，学习并动手操作完成每天的巡检和各省份的运维工作</li>
+				</ul>
+				<ul><span>工作收获:</span>
+					<li>1.加强了对linux操作系统和数据库系统的操作能力</li>
+					<li>2.Java和C++知识的熟练度都得到相应的提升</li>
+					<li>3.对于后端的组件式开发有了更深刻的理解</li>
+				</ul>
+			</div>
+			<div class="gome bigger">
+				<span>国美控股集团有限公司</span><span>前端开发实习生</span>
+				<ul><span>工作内容:</span>
+					<li>1.页面抠图和响应式的开发</li>
+					<li>2.导航栏滚动条的开发</li>
+					<li>3.web前端相关知识的学习</li>
+				</ul>
+				<ul><span>工作收获:</span>
+					<li>1.学会了工作中的一丝不苟的态度</li>
+					<li>2.学会了如何安排自己的时间，如何充分利用时间提高自己的工作效率</li>
+				</ul>
+			</div>	
+			<div class="zbj bigger">
+				<span>重庆猪八戒网络有限公司</span><span>前端开发实习生</span>
+				<ul><span>工作内容:</span>
+					<li>1.独立完成培训文档中练习题目的实现</li>
+					<li>2.页面抠图和响应式的开发</li>
+					<li>3.参与八戒金石和八戒地图的开发，和设计产品沟通，使产品更加完善；与后端人员联调接口。八戒金石在年中总结大会获得最佳业绩贡献项目</li>
+				</ul>
+				<ul><span>工作收获:</span>
+					<li>1.学习页面基本布局和响应式开发jquery和svn、git等工具的操作</li>
+					<li>2.养成每天通过笔记记录下自己的所得和收获、并定期回看的习惯</li>
+					<li>3.利用Hexo和github搭建属于自己的博客,不定时更新</li>
+					<li>4.学会利用StackOverflow和SegmentDefault解决开发和学习中遇到的问题</li>
+				</ul>
+			</div>
+		</div>	 -->
+		
+		<div class="cd-horizontal-timeline section">
+			<div class="timeline">
+				<div class="events-wrapper">
+					<div class="events">
+						<ol>
+							<li><a href="#0" data-date="06/09/2013" class="selected">2013.9</a></li>
+							<li><a href="#0" data-date="21/06/2016">2016.6</a></li>
+							<li><a href="#0" data-date="15/01/2017">2017.1</a></li>
+							<li><a href="#0" data-date="10/07/2017">2017.7</a></li>
+						</ol>
+						<span class="filling-line" aria-hidden="true"></span>
+					</div> <!-- .events -->
+				</div> <!-- .events-wrapper -->
+					
+				<ul class="cd-timeline-navigation">
+					<li><a href="#0" class="prev inactive">Prev</a></li>
+					<li><a href="#0" class="next">Next</a></li>
+				</ul> <!-- .cd-timeline-navigation -->
+			</div> <!-- .timeline -->
+
+			<div class="events-content">
+				<ol>
+					<li class="selected" data-date="06/09/2013">
+						<h2>西南大学计信院</h2>
+						<em>网络工程</em>	
+						<p>
+							主修课程:数据结构、网络安全、数据库、操作系统、网络协议分析(可看懂部分<br>网络协议)、Linux等，可解决简单的计算机软件和硬件问题，会装系统能P图
+						</p>
+					</li>
+					<li data-date="21/06/2016">
+						<h2>重庆猪八戒网络有限公司</h2>
+						<em>前端开发实习生</em>
+						<p>1.独立完成培训文档中练习题目的实现<br>
+							2.页面抠图和响应式的开发<br>
+							3.参与八戒金石和八戒地图的开发，和设计产品沟通，使产品更加完善；与后端人员联调接口。八戒金石在年中总结大会获得最佳业绩贡献项目<br>
+							1.学习页面基本布局和响应式开发jquery和svn、git等工具的操作<br>
+							2.养成每天通过笔记记录下自己的所得和收获、并定期回看的习惯<br>
+							3.利用Hexo和github搭建属于自己的博客,不定时更新<br>4.学会利用StackOverflow和SegmentDefault解决开发和学习中遇到的问题
+							<!-- <ul><span>工作内容:</span>
+								<li>1.独立完成培训文档中练习题目的实现</li>
+								<li>2.页面抠图和响应式的开发</li>
+								<li>3.参与八戒金石和八戒地图的开发，和设计产品沟通，使产品更加完善；与后端人员联调接口。八戒金石在年中总结大会获得最佳业绩贡献项目</li>
+							</ul>
+							<ul><span>工作收获:</span>
+								<li>1.学习页面基本布局和响应式开发jquery和svn、git等工具的操作</li>
+								<li>2.养成每天通过笔记记录下自己的所得和收获、并定期回看的习惯</li>
+								<li>3.利用Hexo和github搭建属于自己的博客,不定时更新</li>
+								<li>4.学会利用StackOverflow和SegmentDefault解决开发和学习中遇到的问题</li>
+							</ul> -->
+						</p>
+					</li>
+					<li data-date="15/01/2017">
+						<h2>国美控股集团有限公司</h2>
+						<em>前端开发实习生</em>
+						<p>1.页面抠图和响应式的开发<br>
+							2.导航栏滚动条的开发<br>
+							3.web前端相关知识的学习<br>
+							1.学会了工作中的一丝不苟的态度<br>
+							2.学会了如何安排自己的时间，如何充分利用时间提高自己的工作效率
+							<!-- <ul><span>工作内容:</span>
+								<li>1.页面抠图和响应式的开发</li>
+								<li>2.导航栏滚动条的开发</li>
+								<li>3.web前端相关知识的学习</li>
+							</ul>
+							<ul><span>工作收获:</span>
+								<li>1.学会了工作中的一丝不苟的态度</li>
+								<li>2.学会了如何安排自己的时间，如何充分利用时间提高自己的工作效率</li>
+							</ul> -->
+						</p>
+					</li>
+					<li data-date="10/07/2017">
+						<h2>万达信息股份有限公司</h2>
+						<em>软件开发工程师</em>
+						<p>1.与同事一起完成持卡库后台22个服务的编写工作，独立完成所有服务的测试工作以及bug 的修复和功能的完善<br>
+							2.学习java web 的相关知识，并实现后台服务的java版本<br>
+							3.学习运维相关工作，学习并动手操作完成每天的巡检和各省份的运维工作<br>
+							1.加强了对linux操作系统和数据库系统的操作能力<br>
+							2.Java和C++知识的熟练度都得到相应的提升<br>
+							3.对于后端的组件式开发有了更深刻的理解
+							<!-- <ul><span>工作内容:</span>
+								<li>1.与同事一起完成持卡库后台22个服务的编写工作，独立完成所有服务的测试工作以及bug 的修复和功能的完善</li>
+								<li>2.学习java web 的相关知识，并实现后台服务的java版本</li>
+								<li>3.学习运维相关工作，学习并动手操作完成每天的巡检和各省份的运维工作</li>
+							</ul>
+							<ul><span>工作收获:</span>
+								<li>1.加强了对linux操作系统和数据库系统的操作能力</li>
+								<li>2.Java和C++知识的熟练度都得到相应的提升</li>
+								<li>3.对于后端的组件式开发有了更深刻的理解</li>
+							</ul> -->
+						</p>
+					</li>
+				</ol>
+			</div> <!-- .events-content -->
+		</div>
+
+		<div class="section">
+			<div class="about_content history">
+				<h2>大事记</h2>
+				<p class="about_txt">程序小白进击之路</p>
+			</div>
+			<div class="event_box">
+				<div class="space_div">
+					<p class="left_space"></p>
+					<p class="right_space"></p>
+				</div>
+				<div class="parHd clearfix">
+					<ul>
+						<li>2014.07.10</li>
+						<li>2014.11.10</li>
+						<li>2015.05.10</li>
+						<li>2016.11.05</li>
+						<li>2016.03.08</li>
+						<li>2016.06.30</li>
+						<li>2017.02.18</li>
+						<li>2017.05.13</li>
+						<li>2017.07.17</li>
+					</ul>
+					<a class="sPrev"><img src="img/left_ico.png" alt="" title=""></a>
+					<a class="sNext"><img src="img/right_ico.png" alt="" title=""></a>
+				</div>
+				<div class="parBd clearfix">
+					<div class="slideBox">
+						<h4>学生成绩管理系统</h4>
+						<p>C语言课程设计</p>
+					</div>
+					<div class="slideBox" style="display: none;">
+						<h4>DVD模拟器</h4>
+						<p>Java课程设计</p>
+					</div>
+					<div class="slideBox" style="display: none;">
+						<h4>小世界网络</h4>
+						<p>数据结构课程设计</p>
+					</div>
+					<div class="slideBox" style="display: none;">
+						<h4>公司门户网站</h4>
+						<p>数据库课程设计</p>
+					</div>
+					<div class="slideBox" style="display: none;">
+						<h4>校园网站CMS系统改版</h4>
+						<p>校园网站CMS系统改版</p>
+					</div>
+					<div class="slideBox" style="display: none;">
+						<h4>八戒金石&八戒地图</h4>
+						<p>重庆猪八戒网络有限公司</p>
+					</div>
+					<div class="slideBox" style="display: none;">
+						<h4>国美云服</h4>
+						<p>国美控股集团有限公司</p>
+					</div>
+					<div class="slideBox" style="display: none;">
+						<h4>基于智能手机的驾驶行为检测系统</h4>
+						<p>毕业设计</p>
+					</div>
+					<div class="slideBox" style="display: none;">
+						<h4>社保卡二期项目</h4>
+						<p>万达信息集团股份有限公司</p>
+					</div>
+				</div>
+			</div>
+		</div>		
+		<div id="five" class="section" style="background-color: #32025f">
+			<p class="info"><img src="img/self.png" alt="基本信息" style="width: 1000px;"></p>
+			<ul>
+				<li>1.热爱前端，关注前端早读课、奇舞周刊和前端大全等微信公众号和十年踪迹、阮一峰和张鑫旭等前辈博客，了解技术发展情况</li>
+				<li>2.喜欢阅读观影，记录书评影评20余篇，文字摘抄数本</li>
+				<li>3.热爱运动，积极乐观，参与学校运动会、志愿者活动和毕业晚会，业余兼职赚取部分生活费，丰富了自己的大学生活</li>
+				<li>4.始终觉得优秀是相互传染的，希望自己可以成为一个更好的程序媛，作出更好的网站</li>
+				<li>5.工作积极，认真负责，喜欢独立思考并解决问题，有较强的团队精神和抗压能力</li>
+				<li>6.具备一定的英语听说读写能力，大学英语免修，CET4(543分)、CET6考试.阅读《call me by your name》《here art thou》英文原著</li>
+			</ul>
+			<ul>
+				<li>1st:Loving to be a Web-developer, paying attention to Wechat Official Accounts other excellent senior's blogs to have a basic understanding of the advanced technology</li>
+				<li>2nd:Liking to read and watch movies, recording the feelings and thoughts that have learned from this.</li>
+				<li>3rd:liking sports,participating lots of activities to make money and richful my own lifes</li>
+				<li>4th:Striving for excellence and then you'll be a better man. I hope I'll be a better developer and make a more reliable and speedy websites</li>
+				<li>5th:Positive and responsible,thinking independently to solve the problems I have met.Strong team spirits and can work under perssure</li>
+				<li>6th:Having a certain level of English listening, speaking, reading and writing</li>
+			</ul>
+		</div>	
+		<div id="seven" class="section" style="background-color: white">	
+			<!-- <img class="skill" src="img/html.png" alt="">	
+			<img class="skill" src="img/div.png" alt="">	
+			<img class="skill" src="img/ps.png" alt="">	
+			<img class="skill" src="img/jq.png" alt="">	
+			<img class="skill" src="img/eng.png" alt="">	
+			<img class="skill" src="img/es6.png" alt="">	
+			<img class="skill" src="img/eng.png" alt=""> -->	
+			<p class="pointer"><img src="img/point.gif" alt="点我"></p>
+			<p class="code"><img src="img/code.png" alt="二维码"></p>
+		</div>	
+		<div id="imageFlow" class="section">
+			<div class="bank">
+				<a href="#" target="_blank" rel="img/13.png">2013年入学座右铭</a>
+				<a href="#" target="_blank" rel="img/8.jpg">2014年西南大学校运会广播操寝室合影</a>
+				<a href="#" target="_blank" rel="img/11.jpg">2014年西南大学校运会广播操</a>
+				<a href="#" target="_blank" rel="img/12.jpg">2014年计算机类2班健身活动合影</a>
+				<a href="#" target="_blank" rel="img/14.jpg">2014年计算机类2班健身活动小组合影</a>
+				<a href="#" target="_blank" rel="img/10.jpg">2015年西南大学活动合影</a>
+				<a href="#" target="_blank" rel="img/4.jpg">2015年西南大学樟树林论坛办公室聚餐</a>
+				<a href="#" target="_blank" rel="img/1.jpg">2016年九寨沟之行</a>
+				<a href="#" target="_blank" rel="img/16.jpg">2016年计信院院运动会撕名牌活动合影</a>
+				<a href="#" target="_blank" rel="img/2.jpg">2016年西南大学110周年校庆晚会</a>
+				<a href="#" target="_blank" rel="img/7.jpg">2016年增值广告事业部年中总结合影</a>
+				<a href="#" target="_blank" rel="img/6.jpg">2016年增值广告事业部八八节合影</a>
+				<a href="#" target="_blank" rel="img/5.jpg">2016年猪八戒网年中大会八戒金石项目获奖留念</a>
+				<a href="#" target="_blank" rel="img/15.jpg">2017年西南大学勤工助学中心合影</a>
+				<a href="#" target="_blank" rel="img/9.jpg">2017年西南大学2017毕业晚会合影</a>				
+				<a href="#" target="_blank" rel="img/17.jpg">2017年13届网络工程班合影</a>
+			</div>
+			<div class="text"> 
+				<div class="title">Loading</div>
+				<div class="legend">Please wait...</div>
+			</div>
+			<div class="scrollbar"> 
+				<img class="track" src="img/sb.gif" alt=""> 
+				<img class="arrow-left" src="img/sl.gif" alt=""> 
+				<img class="arrow-right" src="img/sr.gif" alt=""> 
+				<img class="bar" src="img/sc.gif" alt=""> 
+ 			</div>
+		</div>
+		
+	</div>
+	<script src="js/jquery.mobile.custom.min.js"></script>
+	<script src="js/main.js"></script>
+	<script>	
+		$(document).ready(function() {
+			$(function(){
+			    $('#fullpage').fullpage();
+			});
+	    	$(".bigger").click(function(){
+	        	$(this).animate({
+	            	"width" : "54rem",
+	            	"height" : "28.5rem",
+	            	"position" : "absolute",
+	            	"text-align" : "center",
+	            	"font-size" : "1.5rem",
+	            	"padding": "3rem",
+	            	"line-height":"3rem",
+	            	"margin-top": "9rem"
+	        	}),
+	        	$("#three img").hide();
+		    });
+		    $('.js-timeline').Timeline();
+		    $(function() {
+				$(".event_box").slide({ titCell: ".parHd li", mainCell: ".parBd", defaultPlay: false, titOnClassName: "act", prevCell: ".sPrev", nextCell: ".sNext" });
+				$(".parHd").slide({ mainCell: " ul", vis: 6, effect: "leftLoop", defaultPlay: false, prevCell: ".sPrev", nextCell: ".sNext" }) 
+			});
+		    // $('#imageFlow').onload(imf.create("imageFlow", 0.15, 1.5, 10));
+		});
+	</script>
+</body>
+</html>

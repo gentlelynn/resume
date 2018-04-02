@@ -1,0 +1,261 @@
+*{
+	margin: 0;
+	padding: 0;
+	/* font-family: "Microsoft Yahei"; */
+	font-family: verdana, arial, Helvetica, sans-serif;
+	
+	text-decoration: none;
+}
+.fp-tableCell{
+	display: block;
+}
+ /* style="background-color: #33125e" */
+#first{
+	width: 100%;
+	color: #fff;
+	background: url('img/bg-1.png') no-repeat center;
+}
+#first p{
+	font-size: 4rem;
+	padding-top: 54px;
+	text-align: center;
+}
+.user-img{
+	position: relative;
+	text-align: center;
+}
+.crown{
+	width: 262px;
+	height: 208px;
+	position: absolute;
+	margin-top: 42px;
+	margin-left: -110px;
+	z-index: 90;
+}
+.my-pic{
+	height: 222px;
+	width: 222px;
+	position: absolute;
+	margin-top: 120px;
+	margin-left: -120px;
+	border: 10px #68228B solid;
+	border-radius: 50%;
+}
+.user-info{
+	margin-left: 0;
+	position: fixed;
+	bottom: 40px;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+}
+.fa-li{
+	position: static;
+}
+.fa-ul li{
+	display: inline-block;
+	font-size: 1.2rem;
+	padding: 0 5px;
+	height: 50px;
+}
+.user-info p{
+	font-size: 1rem;
+	color: #fff;
+	padding-top: 10px;
+}
+#two{
+	color: #fff;
+	background-color: #32025f;
+	width: 100%;
+	height: 100%;
+}
+.info{
+	margin-top: 70px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+.job-info{
+	margin: 0 auto;
+	max-width: 900px;
+	border-bottom: 1px solid #ff9c00;
+	text-align: center;
+}
+.job-info li{
+	display: inline-block;
+	padding: 0 30px 30px;
+}
+.school, .class, .luntan{
+	margin-left: 20rem;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+	font-size: 1.5rem;
+}
+.class{
+	margin-top: 4rem;
+}
+.eduinfo>li{
+	display: block;
+	font-size: 1rem;
+	height: 2rem;
+	line-height: 2rem;
+}
+.timeline-theme-1 {
+	width: 600px;
+  	margin: 100px auto;
+}
+
+.timeline{
+	margin-top: 5rem;
+}
+.timeline-dots-wrap.bottom{
+	bottom: auto;
+}
+.wonder li, .gome li, .zbj li{
+	list-style: none;
+}
+#three img{
+	width: 7rem;
+	height: 48rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -24rem;
+	margin-left: -3.3rem;
+}
+.wonder, .gome, .zbj{
+	font-size: 0.8rem;
+	line-height: 1.4rem;
+	word-wrap: break-word;
+	width: 32rem;
+	height: 14rem;
+	border-radius: 5px;
+	background-color: #7312cd;
+	padding: 3px;1
+}
+.wonder, .zbj{
+	float: right;
+	margin-right: 8rem;
+}
+.wonder{
+	margin-top: 1rem;
+}
+.gome{
+	height: 12rem;
+	float: left;
+	margin-top: 18rem;
+	margin-left: 9rem;
+}
+.zbj{
+	height: 15rem;
+	float: right;
+	margin-top: 18.5rem;
+}
+#five p{
+	text-align: center;
+}
+#five ul{
+	list-style: none;
+	width: 64rem;
+	height: 13rem;
+	margin: 0 auto;
+	line-height: 2rem;
+}
+#five ul li{
+	color: #cc8316;
+}
+
+#imageFlow {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0%;
+	/* top: 10%; */
+	background: #000;
+}
+#imageFlow .diapo {
+	position: absolute;
+	left: -1000px;
+	cursor: pointer;
+	-ms-interpolation-mode: nearest-neighbor;
+}
+#imageFlow .text {
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	bottom: 16%;
+	text-align: center;
+	color: #FFF;
+	font-family: verdana, arial, Helvetica, sans-serif;
+	z-index: 1000;
+}
+#imageFlow .title {
+	font-size: 0.9em;
+	font-weight: bold;
+}
+#imageFlow .legend {
+	font-size: 0.8em;
+}
+#imageFlow .link {
+	border: dotted #fff 1px;
+	margin-left: -1px;
+	margin-bottom: -1px;
+}
+#imageFlow .bank {
+	visibility: hidden;
+}
+#imageFlow .top {
+	position: absolute;
+	width: 100%;
+	height: 40%;
+	background: #181818;
+}
+#imageFlow .scrollbar {
+	position: absolute;
+	left: 10%;
+	bottom: 10%;
+	width: 80%;
+	height: 16px;
+	z-index: 1000;
+}
+#imageFlow .track {
+	position: absolute;
+	left: 1%;
+	width: 98%;
+	height: 16px;
+	filter: alpha(opacity=30);
+	opacity: 0.3;
+}
+#imageFlow .arrow-left {
+	position: absolute;
+}
+#imageFlow .arrow-right {
+	position: absolute;
+	right: 0px;
+}
+#imageFlow .bar {
+	position: absolute;
+	height: 16px;
+	left: 25px;
+}
+
+#seven{
+	/* background: url('img/bg-7.png') no-repeat center; */
+}
+img.skill{
+	height: 100px;
+	width: 100px;
+}
+.pointer{
+	position: relative;
+	margin-bottom: 1rem;
+	margin-left: 42rem;
+	margin-top: 10rem;
+}
+.code{
+	text-align: center;
+}
+.code img{
+	width: 15rem;
+	height: 15rem;
+
+}
